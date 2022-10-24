@@ -10,7 +10,7 @@ const FileUploader: React.FC<{
         <input {...getInputProps()} />
         <p>
           Drag the file you want to share or...
-          <button>Select a file</button>
+          <button>Select a file<img src='file.png' alt='' className='file'/></button>
         </p>
       </div>
     )}

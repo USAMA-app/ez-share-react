@@ -72,7 +72,7 @@ export default Uploader
 
 const KeyPoints: React.FC = () => (
   <section>
-    <h1>Our vision</h1>
+    <h1>Our Motive</h1>
     <ul className="steps">
       <li>
         <FontAwesomeIcon icon={faLock} />

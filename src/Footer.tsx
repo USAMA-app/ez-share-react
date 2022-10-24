@@ -5,12 +5,12 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const Footer: React.FC = () => (
   <footer>
     <div>
-      ezshare by <a href="https://github.com/julienc91">Julien Chaumont</a>
+    <img src='user.png' alt='' className='user_i'/>EasyShare by  <a href="https://github.com/USAMA-app">Osama Alam</a>
     </div>
-    <div>
-      <FontAwesomeIcon icon={faGithub} />
-      <a href="https://github.com/julienc91/ezshare">See on GitHub</a>
-    </div>
+     <div>
+     
+      <img src='softcube.jpg' alt='' className='soft_cube'/><a href="https://thesoftcube.com/">For More Info Visit Our Organization</a>
+    </div> 
   </footer>
 )
 
