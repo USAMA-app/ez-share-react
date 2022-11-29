@@ -6,8 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Header: React.FC = () => (
   <header>
     <Link to="/" className="logo">
-      <FontAwesomeIcon icon={faShareAlt} />
-      <h1>ezshare</h1>
+     <img src='logo.png' alt='' />
+      {/* <h1>ezshare</h1> */}
     </Link>
   </header>
 )
